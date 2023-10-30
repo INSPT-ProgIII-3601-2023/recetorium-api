@@ -1,7 +1,7 @@
 // https://expressjs.com/en/guide/routing.html
 const express = require('express');
 
-const {getTodos, getByID, agregar, editar, borrar} = require('../controllers/ingredientesDBFake')
+const {getTodos, getByID, agregar, editar, borrar} = require('../controllers/ingredientes')
 
 const router = express.Router();
 
